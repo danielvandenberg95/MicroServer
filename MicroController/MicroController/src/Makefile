@@ -13,7 +13,7 @@ PROJECT	:=
 TARGET	 := lpc1114fn28
 	
 # Specify the location of the bmptk library
-BMPTK		:= ..\..\bmptk-th04
+BMPTK		:= bmptk-th04
 
 # Specify project files (other than $(PROJECT).cpp) (if any)
 OBJECTS		:= 
