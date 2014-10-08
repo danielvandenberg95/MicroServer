@@ -44,6 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile />
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -64,6 +65,59 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\libraries\ADC.c" />
+    <ClCompile Include="src\libraries\ARP.c" />
+    <ClCompile Include="src\libraries\DS1990.c" />
+    <ClCompile Include="src\libraries\ENC28J60.c" />
+    <ClCompile Include="src\libraries\Ethernet.c" />
+    <ClCompile Include="src\libraries\HTTP.c" />
+    <ClCompile Include="src\libraries\hwUart.c" />
+    <ClCompile Include="src\libraries\hwUart_LPC81xM.c" />
+    <ClCompile Include="src\libraries\i2c.c" />
+    <ClCompile Include="src\libraries\i2c_LCP81xM.c" />
+    <ClCompile Include="src\libraries\io_config.c" />
+    <ClCompile Include="src\libraries\IP.c" />
+    <ClCompile Include="src\libraries\modules.c" />
+    <ClCompile Include="src\libraries\Ping.c" />
+    <ClCompile Include="src\libraries\pins.c" />
+    <ClCompile Include="src\libraries\PWM.c" />
+    <ClCompile Include="src\libraries\servo.c" />
+    <ClCompile Include="src\libraries\SPI.c" />
+    <ClCompile Include="src\libraries\TCP.c" />
+    <ClCompile Include="src\libraries\timer.c" />
+    <ClCompile Include="src\libraries\uart.c" />
+    <ClCompile Include="src\libraries\uart_LCP81xM.c" />
+    <ClCompile Include="src\main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\libraries\ADC.h" />
+    <ClInclude Include="src\libraries\ARP.h" />
+    <ClInclude Include="src\libraries\DS1990.h" />
+    <ClInclude Include="src\libraries\ENC28J60.h" />
+    <ClInclude Include="src\libraries\Ethernet.h" />
+    <ClInclude Include="src\libraries\HTTP.h" />
+    <ClInclude Include="src\libraries\hwUart.h" />
+    <ClInclude Include="src\libraries\hwUart_LPC81xM.h" />
+    <ClInclude Include="src\libraries\i2c.h" />
+    <ClInclude Include="src\libraries\i2c_LCP81xM.h" />
+    <ClInclude Include="src\libraries\index.h" />
+    <ClInclude Include="src\libraries\io_config.h" />
+    <ClInclude Include="src\libraries\IP.h" />
+    <ClInclude Include="src\libraries\modules.h" />
+    <ClInclude Include="src\libraries\Ping.h" />
+    <ClInclude Include="src\libraries\pins.h" />
+    <ClInclude Include="src\libraries\PWM.h" />
+    <ClInclude Include="src\libraries\servo.h" />
+    <ClInclude Include="src\libraries\SPI.h" />
+    <ClInclude Include="src\libraries\stats.h" />
+    <ClInclude Include="src\libraries\TCP.h" />
+    <ClInclude Include="src\libraries\timer.h" />
+    <ClInclude Include="src\libraries\toggle.h" />
+    <ClInclude Include="src\libraries\uart.h" />
+    <ClInclude Include="src\libraries\uart_LCP81xM.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Makefile" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
